@@ -82,7 +82,7 @@
         },
         {
           "code": "mid",
-          "title": "Can they score mid in auto",
+          "title": "Can they score mid in auto?",
           "type": "boolean",
           "defaultValue": false,
           "required": false
@@ -133,7 +133,7 @@
         },
         {
           "code": "mid",
-          "title": "Can they score mid in tele",
+          "title": "Can they score mid in tele?",
           "type": "boolean",
           "defaultValue": false,
           "required": false

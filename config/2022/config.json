@@ -83,7 +83,7 @@
             "H": "high",
             "X": "none" 
           },
-          "defaultValue": 0,
+          "defaultValue": "X",
           "required": true
         },
         {
@@ -126,7 +126,7 @@
             "H": "high",
             "X": "none" 
           },
-          "defaultValue": 0,
+          "defaultValue": "X",
           "required": true
         },
         {

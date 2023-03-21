@@ -1,0 +1,181 @@
+{
+  "$schema": "../schema.json",
+  "title": "Bunny QRSPitScout 2023 v1",
+  "page_title": "Charged Up",
+  "sections": [
+    {
+      "name": "Team Info",
+      "preserveDataOnReset": true,
+      "fields": [
+        {
+          "title": "Scouter Initials",
+          "type": "text",
+          "required": true,
+          "code": "scouter"
+        },
+        {
+          "title": "Team Number",
+          "type": "number",
+          "required": true,
+          "code": "teamNumber"
+        },
+        {
+          "title": "Team Name",
+          "type": "text",
+          "required": true,
+          "code": "teamName"
+        },
+        {
+          "title": "No Show",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false,
+          "code": "noShow"
+        }
+      ]
+    },
+    {
+      "name": "Autonomous",
+      "fields": [
+        {
+          "code": "cubeConeBoth",
+          "title": "What pieces can they score in auto?",
+          "type": "select",
+          "choices": {
+            "Cube": "cube",
+            "Cone": "cone",
+            "Both": "both",
+            "X": "none"
+          },
+          "defaultValue": "X",
+          "required": true
+        },
+        {
+          "code": "lmh",
+          "title": "How high can they score in auto?",
+          "type": "select",
+          "choices": {
+            "L": "low",
+            "M": "mid",
+            "H": "high",
+            "X": "none" 
+          },
+          "defaultValue": 0,
+          "required": true
+        },
+        {
+          "code": "dockEngageBoth",
+          "title": "Do they dock, if so can they engage in auto?",
+          "type": "select",
+          "choices": {
+            "Dock": "dock",
+            "Engage": "engage",
+            "X": "none"
+          },
+          "defaultValue": "X",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "Teleop",
+      "fields": [
+        {
+          "code": "telecubeConeBoth",
+          "title": "What pieces can they score in teleop?",
+          "type": "select",
+          "choices": {
+            "Cube": "cube",
+            "Cone": "cone",
+            "Both": "both",
+            "X": "none"
+          },
+          "defaultValue": "X",
+          "required": true
+        },
+        {
+          "code": "telelmh",
+          "title": "How high can they score in teleop?",
+          "type": "select",
+          "choices": {
+            "L": "low",
+            "M": "mid",
+            "H": "high",
+            "X": "none" 
+          },
+          "defaultValue": 0,
+          "required": true
+        },
+        {
+          "code": "teledockEngageBoth",
+          "title": "Do they dock, if so can they engage in teleop?",
+          "type": "select",
+          "choices": {
+            "Dock": "dock",
+            "Engage": "engage",
+            "X": "none"
+          },
+          "defaultValue": "X",
+          "required": true
+        },
+        {
+          "code": "floor",
+          "title": "Can they pick up from floor?",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "single",
+          "title": "Can they pick up from single substation?",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "double",
+          "title": "Can they pick up from double substation?",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Robot info",
+      "fields": [
+        {
+          "code": "lang",
+          "title": "What language do they program in?",
+          "type": "text",
+          "defaultValue": false,
+          "required": true
+        },
+        {
+          "code": "lbs",
+          "title": "How much does their robot weigh?",
+          "type": "text",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "drive",
+          "title": "What drive train do they use?",
+          "type": "text",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "comments",
+          "title": "Comments",
+          "type": "text",
+          "defaultValue": false,
+          "required": false
+        }
+      ]
+    }
+  ]
+}
+  
+
+

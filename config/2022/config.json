@@ -177,12 +177,6 @@
           "type": "boolean",
           "defaultValue": false,
           "required": false
-        },
-        {
-          "code": "comments",
-          "title": "Comments",
-          "type": "text",
-          "required": false
         }
    
       ]

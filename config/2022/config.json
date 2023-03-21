@@ -88,7 +88,7 @@
         },
         {
           "code": "dockEngageBoth",
-          "title": "Do they dock, if so can they engage in auto?",
+          "title": "Do they dock in auto, if so, can they engage?",
           "type": "select",
           "choices": {
             "Dock": "dock",
@@ -131,7 +131,7 @@
         },
         {
           "code": "teledockEngageBoth",
-          "title": "Do they dock, if so can they engage in teleop?",
+          "title": "Do they dock in teleop, if so, can they engage?",
           "type": "select",
           "choices": {
             "Dock": "dock",
@@ -166,7 +166,6 @@
           "code": "comments",
           "title": "Comments",
           "type": "text",
-          "defaultValue": false,
           "required": false
         }
    

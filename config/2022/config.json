@@ -74,21 +74,29 @@
           "required": true
         },
         {
-          "code": "lmh",
-          "title": "How high can they score in auto?",
-          "type": "select",
-          "choices": {
-            "L": "low",
-            "M": "mid",
-            "H": "high",
-            "X": "none" 
-          },
-          "defaultValue": "X",
-          "required": true
+          "code": "low",
+          "title": "Can they score low in auto?",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "mid",
+          "title": "Can they score mid in auto",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "high",
+          "title": "Can they score high in auto?",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
         },
         {
           "code": "dockEngageBoth",
-          "title": "Do they dock in auto, if so, can they engage?",
+          "title": "Do they dock, if so can they engage in auto?",
           "type": "select",
           "choices": {
             "Dock": "dock",
@@ -117,21 +125,29 @@
           "required": true
         },
         {
-          "code": "telelmh",
-          "title": "How high can they score in teleop?",
-          "type": "select",
-          "choices": {
-            "L": "low",
-            "M": "mid",
-            "H": "high",
-            "X": "none" 
-          },
-          "defaultValue": "X",
-          "required": true
+          "code": "low",
+          "title": "Can they score low in tele?",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "mid",
+          "title": "Can they score mid in tele",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "high",
+          "title": "Can they score high in tele?",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
         },
         {
           "code": "teledockEngageBoth",
-          "title": "Do they dock in teleop, if so, can they engage?",
+          "title": "Do they dock, if so can they engage in teleop?",
           "type": "select",
           "choices": {
             "Dock": "dock",
@@ -174,5 +190,6 @@
   ]
 }
 
+  
 
 

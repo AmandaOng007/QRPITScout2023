@@ -1,7 +1,7 @@
 {
   "$schema": "../schema.json",
   "title": "Bunny QRSPitScout 2023 v1",
-  "page_title": "Charged Up",
+  "page_title": "Charged Up Pit Scouting",
   "sections": [
     {
       "name": "Team Info",
@@ -41,28 +41,18 @@
           "code": "lang",
           "title": "What language do they program in?",
           "type": "text",
-          "defaultValue": false,
           "required": true
         },
         {
           "code": "lbs",
           "title": "How much does their robot weigh?",
           "type": "text",
-          "defaultValue": false,
           "required": false
         },
         {
           "code": "drive",
           "title": "What drive train do they use?",
           "type": "text",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "comments",
-          "title": "Comments",
-          "type": "text",
-          "defaultValue": false,
           "required": false
         }
       ]
@@ -171,6 +161,13 @@
           "type": "boolean",
           "defaultValue": false,
           "required": false
+        },
+        {
+          "code": "comments",
+          "title": "Comments",
+          "type": "text",
+          "defaultValue": false,
+          "required": false
         }
    
       ]
@@ -178,6 +175,5 @@
   ]
 }
 
-  
 
 

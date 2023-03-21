@@ -35,6 +35,39 @@
       ]
     },
     {
+      "name": "Robot info",
+      "fields": [
+        {
+          "code": "lang",
+          "title": "What language do they program in?",
+          "type": "text",
+          "defaultValue": false,
+          "required": true
+        },
+        {
+          "code": "lbs",
+          "title": "How much does their robot weigh?",
+          "type": "text",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "drive",
+          "title": "What drive train do they use?",
+          "type": "text",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "comments",
+          "title": "Comments",
+          "type": "text",
+          "defaultValue": false,
+          "required": false
+        }
+      ]
+    },
+    {
       "name": "Autonomous",
       "fields": [
         {
@@ -139,43 +172,12 @@
           "defaultValue": false,
           "required": false
         }
-      ]
-    },
-    {
-      "name": "Robot info",
-      "fields": [
-        {
-          "code": "lang",
-          "title": "What language do they program in?",
-          "type": "text",
-          "defaultValue": false,
-          "required": true
-        },
-        {
-          "code": "lbs",
-          "title": "How much does their robot weigh?",
-          "type": "text",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "drive",
-          "title": "What drive train do they use?",
-          "type": "text",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "comments",
-          "title": "Comments",
-          "type": "text",
-          "defaultValue": false,
-          "required": false
-        }
+   
       ]
     }
   ]
 }
+
   
 
 
